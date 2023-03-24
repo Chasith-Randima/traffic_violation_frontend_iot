@@ -65,7 +65,7 @@ const LogIn = () => {
           }, 1000);
 
           console.log(data);
-          // console.log(data.error);
+
           authenticate(data.data, () => {
             if (localStorage.getItem("user")) {
               Router.push(`/que/currentQue`);

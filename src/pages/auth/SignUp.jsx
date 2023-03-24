@@ -50,12 +50,6 @@ const SignUp = () => {
       });
   }, []);
 
-  // useEffect(() => {
-  //   if (getCookie("token_user")) {
-  //     Router.push(`/`);
-  //   }
-  // }, []);
-
   const {
     name,
     email,
