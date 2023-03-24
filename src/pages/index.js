@@ -5,8 +5,6 @@ import styles from "@/styles/Home.module.css";
 import Sidebar from "components/Sidebar";
 import Layout from "components/Layout";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
   return (
     <>
