@@ -3,13 +3,7 @@ import { getCookie, isAuth, signup } from "actions/auth";
 import Link from "next/link";
 import Message from "components/Message";
 import { policeStationNamesIds } from "actions/police";
-import {
-  FaFacebookF,
-  FaLinkedinIn,
-  FaGoogle,
-  FaRegEnvelope,
-  FaUser,
-} from "react-icons/fa";
+import { FaRegEnvelope, FaUser } from "react-icons/fa";
 import { MdLockOutline } from "react-icons/md";
 import { AiOutlineUser } from "react-icons/ai";
 import { useRouter } from "next/router";

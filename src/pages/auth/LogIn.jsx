@@ -4,12 +4,7 @@ import { getCookie, logIn, isAuth, authenticate } from "actions/auth";
 import Router from "next/router";
 import Link from "next/link";
 import Message from "components/Message";
-import {
-  FaFacebookF,
-  FaLinkedinIn,
-  FaGoogle,
-  FaRegEnvelope,
-} from "react-icons/fa";
+import { FaRegEnvelope } from "react-icons/fa";
 
 import { MdLockOutline } from "react-icons/md";
 
