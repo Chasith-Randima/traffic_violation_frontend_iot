@@ -7,7 +7,6 @@ const Footer = () => {
       <footer className="bg-white pt-16 pb-12 border-t border-gray-100">
         <div className="container">
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-            {/* <!-- footer text --> */}
             <div className="xl:col-span-1 space-y-8">
               {/* <img src="./images/logo.svg" alt="" className="w-30" /> */}
               <Link

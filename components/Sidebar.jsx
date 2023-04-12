@@ -260,7 +260,6 @@ const Sidebar = () => {
         >
           {/* <h2 className="my-1 ml-2 text-xl">page 1</h2> */}
           <h2
-            // href="/mainPage"
             onClick={() => router.push(`/profile/${userId}`)}
             className="my-1 ml-2 text-xl cursor-pointer"
           >

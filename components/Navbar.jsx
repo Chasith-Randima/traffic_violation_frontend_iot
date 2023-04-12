@@ -6,7 +6,6 @@ import Link from "next/link";
 import { Router, useRouter } from "next/router";
 // import SearchHospitals from "./search/SearchHospitals";
 import { FaBars } from "react-icons/fa";
-// import { NProgress } from "nprogress";
 
 const Navbar = ({ setSideBar, showSideBar }) => {
   const [user, setUser] = useState({});
