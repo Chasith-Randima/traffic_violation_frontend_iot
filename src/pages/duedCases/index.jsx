@@ -3,7 +3,7 @@ import Layout from "components/Layout";
 // import Appointment from "components/Appointment";
 // import { allAppointments } from "actions/appointment";
 import { allCases } from "actions/case";
-// import SearchBar from "components/SearchBar";
+
 import { useState } from "react";
 import { BsFillFilterSquareFill } from "react-icons/bs";
 import Message from "components/Message";
