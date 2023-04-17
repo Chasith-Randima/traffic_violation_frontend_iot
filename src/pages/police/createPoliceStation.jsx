@@ -27,8 +27,6 @@ const CreateHospital = () => {
 
     oicName: "",
     oicId: "",
-
-    // formData: new FormData(),
   });
 
   const [alert, setAlert] = useState({

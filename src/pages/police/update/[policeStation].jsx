@@ -2,7 +2,7 @@
 // import { oneHospita } from "actions/hospital";
 import { onePoliceStation, updatePoliceStation } from "actions/police";
 import React, { useState, useEffect } from "react";
-// import { withRouter } from "next/router";
+
 import Layout from "components/Layout";
 import { useRouter } from "next/router";
 import { getCookie } from "actions/auth";
