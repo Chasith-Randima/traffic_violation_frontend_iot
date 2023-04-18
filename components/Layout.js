@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar setSideBar={setShowSideBar} showSideBar={showSideBar} />
-      <div className="grid grid-cols-12 w-full ml-5 md:ml-0">
+      <div className="grid grid-cols-12 md:w-full ml-5 md:ml-0">
         <div
           className={`${
             always && showSideBar

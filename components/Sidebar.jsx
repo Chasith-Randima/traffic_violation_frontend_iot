@@ -52,7 +52,7 @@ const Sidebar = () => {
         </div>
         <div
           className={`  my-2 font-medium p-2 w-full  rounded-md  hover:bg-blue-300 hover:text-white transition-all ${
-            router.asPath == "/allCases"
+            router.asPath == "/allCases/"
               ? "bg-blue-300 text-white"
               : "text-black bg-gray-300"
           }`}
