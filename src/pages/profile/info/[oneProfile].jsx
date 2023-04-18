@@ -14,7 +14,7 @@ const OneProfile = () => {
     email: "",
     police: "",
     images: "",
-    // formData: "",
+
   });
 
   const { name, policeStationName, policeId, police, email, images } = values;

@@ -1,6 +1,6 @@
 import Layout from "components/Layout";
 import React, { useEffect, useState } from "react";
-import { withRouter } from "next/router";
+
 import { getCookie } from "actions/auth";
 import { oneUser, updateUser, updateUserPassword } from "actions/user";
 import Message from "components/Message";
