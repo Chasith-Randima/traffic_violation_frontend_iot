@@ -8,7 +8,7 @@ import Layout from "components/Layout";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-// import GenerateQR from "components/GenerateQR";
+
 import { getCookie } from "actions/auth";
 import Message from "components/Message";
 import { oneCase, updateCase } from "actions/case";

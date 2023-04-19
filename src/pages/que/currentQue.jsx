@@ -335,7 +335,6 @@ const CurrentQue = () => {
               <h2>Time</h2>
               <h2>Status</h2>
               <h2>cancel</h2>
-              {/* <h2>update</h2> */}
             </div>
             <div className="">
               {allData &&
