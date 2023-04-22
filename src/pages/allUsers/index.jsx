@@ -8,7 +8,7 @@ import { useState } from "react";
 import { BsFillFilterSquareFill } from "react-icons/bs";
 import Message from "components/Message";
 import CaseComponent from "components/case/CaseComponent";
-import SearchBar from "components/SearchBar";
+
 import { allUsers } from "actions/user";
 import { getCookie } from "actions/auth";
 import AllUsers from "components/AllUsers";
