@@ -10,7 +10,6 @@ if (process.env.NEXT_PUBLIC_PRODUCTION == true) {
 }
 
 export const oneUser = (id, token) => {
-  // console.log(id, token);
   let url = `${API}/users/${id}`;
 
   return fetch(url, {
