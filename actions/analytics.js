@@ -3,8 +3,6 @@ import axios from "axios";
 // import { removeCookie, removeLocalStorage } from "./auth";
 import queryString from "query-string";
 
-// import Router from "next/router";
-
 let API = process.env.NEXT_PUBLIC_API_DEVELOPMENT;
 
 if (process.env.NEXT_PUBLIC_PRODUCTION == true) {

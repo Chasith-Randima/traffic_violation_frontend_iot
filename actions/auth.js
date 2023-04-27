@@ -18,7 +18,6 @@ export const signup = async (user) => {
     body: JSON.stringify(user),
   })
     .then((response) => {
-      //   console.log(response.statusText);
       return response.json();
     })
     .catch((err) => {
