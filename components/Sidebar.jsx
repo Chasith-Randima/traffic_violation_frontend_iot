@@ -18,22 +18,22 @@ const Sidebar = () => {
   const userSidebar = () => {
     return (
       <div className="md:mr-10 ">
-        <div
+        {/* <div
           className={`  my-2 font-medium p-2 w-full  rounded-md  hover:bg-blue-300 hover:text-white transition-all ${
             router.asPath == "/"
               ? "bg-blue-300 text-white"
               : "text-black bg-gray-300"
           }`}
         >
-          {/* <h2 className="my-1 ml-2 text-xl">page 1</h2> */}
+       
           <h2
-            // href="/mainPage"
+           
             onClick={() => router.push("/")}
             className="my-1 ml-2 text-xl cursor-pointer"
           >
             Dashboard
           </h2>
-        </div>
+        </div> */}
         <div
           className={`  my-2 font-medium p-2 w-full  rounded-md  hover:bg-blue-300 hover:text-white transition-all ${
             router.asPath == "/que/currentQue"
@@ -121,22 +121,22 @@ const Sidebar = () => {
   const adminSidebar = () => {
     return (
       <div className="md:mr-10 ">
-        <div
+        {/* <div
           className={`  my-2 font-medium p-2 w-full  rounded-md  hover:bg-blue-300 hover:text-white transition-all ${
             router.asPath == "/"
               ? "bg-blue-300 text-white"
               : "text-black bg-gray-300"
           }`}
         >
-          {/* <h2 className="my-1 ml-2 text-xl">page 1</h2> */}
+       
           <h2
-            // href="/mainPage"
+      
             onClick={() => router.push("/")}
             className="my-1 ml-2 text-xl cursor-pointer"
           >
             Dashboard
           </h2>
-        </div>
+        </div> */}
         <div
           className={`  my-2 font-medium p-2 w-full  rounded-md  hover:bg-blue-300 hover:text-white transition-all ${
             router.asPath == "/que/currentQue"

@@ -327,7 +327,7 @@ const CurrentQue = () => {
           </div>
         ) : (
           <div className=" mr-10 border-2 border-gray-200 rounded-xl">
-            <div className="grid grid-cols-7 md:grid-cols-8 bg-gray-600 p-4 rounded-xl text-white text-xl font-sb ">
+            <div className="grid grid-cols-7 md:grid-cols-7 bg-gray-600 p-4 rounded-xl text-white text-xl font-sb ">
               <h2>Id</h2>
               <h2>Vehicle Number</h2>
               <h2 className="hidden col-span-1 md:block ">Owner</h2>
@@ -335,7 +335,7 @@ const CurrentQue = () => {
               <h2>Time</h2>
               <h2>Status</h2>
               <h2>cancel</h2>
-              <h2>update</h2>
+              {/* <h2>update</h2> */}
             </div>
             <div className="">
               {allData &&

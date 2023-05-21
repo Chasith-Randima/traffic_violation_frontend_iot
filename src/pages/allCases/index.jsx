@@ -257,19 +257,6 @@ const CurrentQue = () => {
                           placeholder="Enter your Name"
                         />
                       </div>
-                      {/* <div className="col-span-1">
-                        <label class="text-gray-600 mb-2 block my-2">
-                          Active
-                        </label>
-                        <input
-                          type="text"
-                          value={active}
-                          onChange={(e) => setActive(e.target.value)}
-                          // onChange={handleChange("active")}
-                          class="block w-full border border-gray-300 px-4 py-3 text-gray-600 text-sm rounded focus:ring-0  focus:border-blue-500 placeholder-gray-400"
-                          placeholder="Enter your Name"
-                        />
-                      </div> */}
                     </div>
                     <div className="">
                       <h2>Time duration</h2>
@@ -301,18 +288,6 @@ const CurrentQue = () => {
                         </div>
                       </div>
                     </div>
-                    {/* <div className="my-2">
-                      <label class="text-gray-600 mb-2 block">
-                        Appointment Time
-                      </label>
-                      <input
-                        type="time"
-                        // value={appointmentTime}
-                        // onChange={handleChange("appointmentTime")}
-                        class="block w-full border border-gray-300 px-4 py-3 text-gray-600 text-sm rounded focus:ring-0 focus:border-primary placeholder-gray-400"
-                        placeholder="Enter your Date Of Birth"
-                      />
-                    </div> */}
                   </div>
                 </div>
                 <div className="text-center col-span-3 my-5   ">
