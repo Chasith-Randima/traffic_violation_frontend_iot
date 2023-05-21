@@ -68,7 +68,7 @@ const LogIn = () => {
           // console.log(data.error);
           authenticate(data.data, () => {
             if (localStorage.getItem("user")) {
-              Router.push(`/`);
+              Router.push(`/que/currentQue`);
             }
           });
         } else {
