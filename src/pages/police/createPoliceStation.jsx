@@ -225,7 +225,7 @@ const CreateHospital = () => {
                   value={oicId}
                   onChange={handleChange("oicId")}
                   class="block w-full border border-gray-300 px-4 py-3 text-gray-600 text-sm rounded focus:ring-0 focus:border-primary placeholder-gray-400"
-                  placeholder="Enter OID ID"
+                  placeholder="Enter OIC ID"
                 />
               </div>
             </div>
