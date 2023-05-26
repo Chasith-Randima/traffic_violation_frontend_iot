@@ -194,7 +194,7 @@ const CreateHospital = () => {
                   rows="5"
                   onChange={handleChange("description")}
                   class="block w-full border border-gray-300 px-4 py-3 text-gray-600 text-sm rounded focus:ring-0 focus:border-primary placeholder-gray-400"
-                  placeholder="Enter your Doctor Id"
+                  placeholder="Enter Description"
                 />
               </div>
 
@@ -225,7 +225,7 @@ const CreateHospital = () => {
                   value={oicId}
                   onChange={handleChange("oicId")}
                   class="block w-full border border-gray-300 px-4 py-3 text-gray-600 text-sm rounded focus:ring-0 focus:border-primary placeholder-gray-400"
-                  placeholder="Enter your city"
+                  placeholder="Enter OID ID"
                 />
               </div>
             </div>
@@ -233,7 +233,7 @@ const CreateHospital = () => {
           <div className="text-center col-span-3 my-5  ">
             <input
               type="submit"
-              value={"Create Hospital"}
+              value={"Create Police Station"}
               onClick={handleSubmit}
               className="bg-blue-400 p-5 rounded-full text-xl font-bold text-white hover:bg-blue-500 hover:text-white transition-all cursor-pointer"
             />
